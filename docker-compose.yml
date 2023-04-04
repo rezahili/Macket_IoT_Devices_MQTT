@@ -1,0 +1,19 @@
+version: str 3.9
+
+services:
+  macket_app:
+    image: rezahili/devices_macket:1
+    restart: always
+    env_file:
+      - ./envfile.env     
+    network_mode: "host"
+  mqtt:
+    image: eclipse-mosquitto:latest
+    restart: always
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    env_file:
+      - ./envfile.env  
+    network_mode: "host"
+
+
