@@ -11,6 +11,7 @@ we have these devices for now:
 
 
 If you need more devices contributing is very welcome and you can change it through [This File ](https://github.com/rezahili/Macket_IoT_Devices_MQTT/blob/main/macket/main.py)
+and build image again
 
 ## Installation:
 clone this repository and run:
