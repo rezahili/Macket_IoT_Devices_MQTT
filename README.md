@@ -1,5 +1,5 @@
 # IoT Devices Macket 
-Simulating IoT devices using a Macket app and sending its data to Mosquitto Broker. If you want Test you applications and You just need IoT deviecs macket that can produce data for you this repo will help you.
+Simulating IoT devices using a Macket app and sending its data to Mosquitto Broker. If you want Test you applications and You just need IoT deviecs macket that can produce data for you this repo will help you. We have both macket and Mosquitto broker.
 we have these devices for now:
 * Fan
 * Gas detector
