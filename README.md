@@ -1,6 +1,6 @@
 # IoT Devices Macket 
-Simulating IoT devices using a Macket app and sending its data to Mosquitto Broker. If you want Test you applications and You just need IoT deviecs macket that can produce data for you this repo will help you. We have both macket and Mosquitto broker.
-we have these devices for now:
+Simulating IoT devices using a Macket app and sending its data to Mosquitto Broker. If you want Test you applications and You just need IoT deviecs macket that can produce data for you, this repo will help you. We have both macket and Mosquitto broker.
+Macket provide these devices for now:
 * Fan
 * Gas detector
 * Current Sensor
@@ -10,11 +10,11 @@ we have these devices for now:
 * Door(open or close)
 
 
-If you need more devices contributing is very welcome and you can change it through [This File ](https://github.com/rezahili/Macket_IoT_Devices_MQTT/blob/main/macket/main.py)
-and build image again
+If you need more devices don't hasitate to contribute through [This File ](https://github.com/rezahili/Macket_IoT_Devices_MQTT/blob/main/macket/main.py)
+and build its image again
 
 ## Installation:
-clone this repository and run:
+clone this repository and run bellow command inside of project directory:
 
 ```
 ./setup.sh
@@ -86,4 +86,4 @@ data for all of them is in JSON:
 {"Value": 0}
 ```
 ## Contributing:
-If you find this repo useful, please consider starring the repository. If you have any feedback or suggestions for improvement, feel free to contribute.
+If you find this repository useful, please consider starring the repository. If you have any feedback or suggestions for improvement, feel free to contribute.
